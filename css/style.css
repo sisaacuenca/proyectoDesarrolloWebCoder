@@ -22,6 +22,7 @@ body {
 header {
   align-items: center;
   display: flex;
+  grid-area: header;
   justify-content: flex-end;
   margin-bottom: 2rem;
   padding: 30px 10%;
@@ -53,6 +54,9 @@ button:hover {
   color: #0088a9;
 }
 /*FIN HEADER*/
+main {
+  grid-area: main;
+}
 /* Peliculas, series,  */
 
 .lista div {
@@ -132,6 +136,9 @@ iframe {
 }
 /* fin contacto */
 /* footer */
+footer {
+  grid-area: footer;
+}
 .pie-pagina {
   width: 100%;
   background-color: #0a141d;
