@@ -57,6 +57,7 @@ button:hover {
 main {
   grid-area: main;
 }
+
 /* Peliculas, series,  */
 
 .lista div {
@@ -106,6 +107,7 @@ main {
 
 iframe {
   display: flex;
+
   border-radius: 10px;
   background-color: #fca311;
   padding: 1rem;
