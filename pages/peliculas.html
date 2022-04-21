@@ -5,59 +5,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" href="../img/iconos/favi-sw.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style2.css">
     <title>Peliculas - SW Fan Page</title>
 </head>
 
 <body>
     <header id="top">
-        <section class="titulo">
-            <img src="../img/iconos/logo-ls.png" alt="logo-main">
-            <h1>Star Wars Fan Page</h1>
-        </section>
-        <section class="navbar">
-            <ul>
-                <li><a href="../index.html"><button><img src="../img/iconos/hogar.png" alt=""> Inicio</button></a></li>
-                <li><a href="peliculas.html"><button><img src="../img/iconos/movie-reel.png" alt="">
-                            Peliculas</button></a></li>
-                    <li><a href="series.html"><button><img src="../img/iconos/serielogo.png" alt="">Series</button></a>
-                    </li>
-                    <li><a href="juegos.html"><button><img src="../img/iconos/joypad.png" alt=""> Juegos</button></a>
-                    </li>
-                    <li>
-                        <a href="contacto.html"><button><img src="../img/iconos/support.png"
-                                    alt="">Contacto</button></a>
-                    </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand text-warning" href="#"><img src="../img/iconos/logo-ls.png" alt="logo-main">
+                    Star Wars Fan Page
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-warning" aria-current="page" href="../index.html">inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-warning" aria-current="page" href="#">peliculas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-warning" aria-current="page"
+                                href="../pages/series.html">series</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-warning" aria-current="page"
+                                href="../pages/juegos.html">juegos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-warning" aria-current="page"
+                                href="../pages/contacto.html">Contactanos</a>
+                        </li>
+                    </ul>
 
-        </section>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
-        <section class="lista">
-
-            <div>
-
-                <div class="imagen"><img src="../img/peliculas/ep4.jpg" alt="new-hope-poster" class="poster">
+        <div class="container ">
+            <div class="row bg-dark border border-warning ">
+                <div class="col">
                     <h4> Star Wars: A New Hope (1977)</h4>
+                    <img src="../img/peliculas/ep4.jpg" alt="new-hope-poster" class="img-fluid img-thumbnail">
+
                 </div>
-
-                <div class="texto">
-
+                <div class=" col d-flex justify-content-center">
                     <p>Luke Skywalker se embarca en un viaje que cambiará la galaxia. Diecinueve años después de la
                         formación
                         del imperio, luke se ve envuelto en la lucha de la alianza rebelde cuando conoce a obi-wan
                         kenobi,
                         que ha vivido aislado
-                        durante años en el planeta desértico de taooine. Obi-Wan entrena a Luke como Jedi cuando se une
+                        durante años en el planeta desértico de taooine. Obi-Wan entrena a Luke como Jedi cuando se
+                        une
                         a él en un
                         peligrosa misión para rescatar a la bella
                         Princesa Leia de las garras de Darth Vader y el imperio del mal.</p>
                 </div>
-
             </div>
-            <div>
-                <div class="texto">
+        </div>
+        <div class="container bg-dark border border-warning">
+            <div class="row">
+                <div class="col d-flex justify-content-center">
                     <p>Después de la destrucción de la Estrella de la Muerte, las fuerzas imperiales continúan
                         persiguiendo a los rebeldes.
                         Tras la derrota de la rebelión en el planeta helado Hoth,
@@ -66,175 +85,199 @@
                         trampa.
                         en la ciudad de las nubes de Bespin</p>
                 </div>
-                <div class="imagen">
+                <div class="col">
                     <h4><strong>Star Wars: Empire Strikes Back</strong>(1980)</h4>
-                    <img src="../img/peliculas/ep5.jpg" alt="empire-strikes-back-poster" class="poster">
+                    <img src="../img/peliculas/ep5.jpg" alt="empire-strikes-back-poster" class="img-thumbnail">
                 </div>
-
-
-
-
             </div>
-            <div>
-                <div class="imagen"><img src="../img/peliculas/ep6.jpg" alt="return-jedi-poster" class="poster">
+
+        </div>
+        <div class="container bg-dark border border-warning ">
+            <div class="row">
+                <div class="col"><img src="../img/peliculas/ep6.jpg" alt="return-jedi-poster" class="img-thumbnail">
                     <h4>Star Wars: Return Of The Jedi (1983)</h4>
                 </div>
-                <div class="texto">
-                    <p>El imperio se prepara para aplastar la Rebelión con una estrella de la muerte más poderosa,
+                <div class="col">
+                    <p>El imperio se prepara para aplastar la Rebelión con una estrella de la muerte más
+                        poderosa,
                         mientras que la flota Rebelde monta un ataque masivo en la estación espacial.
                         Luke Skywalker se enfrenta a Darth Vader en un duelo final culminante contra el malvado
                         Emperador..</p>
                 </div>
-
-
             </div>
-            <div>
-                <div class="texto">
-                    <p>Obi-wan Kenobi y su maestro Jedi Qui-Gon Jinn descubren que Anakin
+        </div>
+        <div class="container bg-dark border border-warning">
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <p>
+                        Obi-wan Kenobi y su maestro Jedi Qui-Gon Jinn descubren que Anakin
                         gana la libertad de dejar su hogar y ser entrenado como Jedi.
                         Anakin y la Reina se enfrentan a las fuerzas invasoras, mientras que los dos Jedi compiten
                         contra Darth Maul.
-                        Pero la invasión es el primer paso en un plan para las fuerzas de la oscuridad que resurgen, los
+                        Pero la invasión es el primer paso en un plan para las fuerzas de la oscuridad que resurgen,
+                        los
                         Sith.
                     </p>
                 </div>
-                <div class="imagen">
+                <div class=" col">
                     <h4>Star Wars: The Phantom Menace (1999)</h4>
-                    <img src="../img/peliculas/ep1.jpg" alt="phantom-menace-poster" class="poster">
+                    <img src="../img/peliculas/ep1.jpg" alt="phantom-menace-poster" class="img-thumbnail">
                 </div>
-
-
             </div>
-            <div>
-                <div class="imagen">
-                    <img src="../img/peliculas/ep2.jpg" alt="attack-clones-poster" class="poster">
+        </div>
+        <div class="container bg-dark border border-warning">
+            <div class="row">
+                <div class="col">
                     <h4> Star Wars: Attack Of The Clones (2002)</h4>
+                    <img src="../img/peliculas/ep2.jpg" alt="attack-clones-poster" class="img-thumbnail">
                 </div>
-                <div class="texto">
+                <div class="col d-flex justify-content-center">
                     <p>10 años después de la invasión de Naboo, la galaxia está al borde de la guerra civil.
-                        Bajo el liderazgo de un Jedi renegado llamado Conde Dooku, miles de sistemas solares amenazan
+                        Bajo el liderazgo de un Jedi renegado llamado Conde Dooku, miles de sistemas solares
+                        amenazan
                         separarse de la República Galáctica.
-                        Cuando se intenta asesinar a la senadora Padmé Amidala, el aprendiz de Jedi Anakin Skywalker
+                        Cuando se intenta asesinar a la senadora Padmé Amidala, el aprendiz de Jedi Anakin
+                        Skywalker
                         es asignado para protegerla. Durante su misión, Anakin descubre su amor por Padmé,
-                        así como su propio lado oscuro. Pronto, Anakin, Padmé y Obi-wan Kenobi se sienten atraídos por
+                        así como su propio lado oscuro. Pronto, Anakin, Padmé y Obi-wan Kenobi se sienten
+                        atraídos
+                        por
                         el corazón del movimiento separatista y el comienzo de la guerra de los clones</p>
                 </div>
-
             </div>
-            <div>
-                <div class="texto">
-                    <p>Años después del comienzo de las Guerras Clon, los Caballeros Jedi lideran un enorme ejército de
+        </div>
+        <div class="container bg-dark border border-warning">
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <p>Años después del comienzo de las Guerras Clon, los Caballeros Jedi lideran un enorme
+                        ejército
+                        de
                         clones.
-                        Cuando los siniestros Sith revelan un complot para gobernar la galaxia, la república se derrumba
+                        Cuando los siniestros Sith revelan un complot para gobernar la galaxia, la república se
+                        derrumba
                         y de su
-                        cenizas se levanta el malvado imperio galáctico. El héroe Jedi Anakin Skywalker, es seducido por
+                        cenizas se levanta el malvado imperio galáctico. El héroe Jedi Anakin Skywalker, es
+                        seducido
+                        por
                         el lado oscuro de
                         la fuerza
                         para convertirse en el aprendiz del emperador Darth Vader.</p>
                 </div>
-                <div class="imagen">
+                <div class="col">
                     <h4><strong>Star Wars: Revenge Of The Sith</strong>(2005)</h4>
-                    <img src="../img/peliculas/ep3.jpg" alt="revenge-sith-poster" class="poster">
+                    <img src="../img/peliculas/ep3.jpg" alt="revenge-sith-poster" class="img-thumbnail">
                 </div>
-
-
-
             </div>
-            <div>
-                <div class="imagen">
-                    <img src="../img/peliculas/ep7.jpg" alt="force-awakens-poster" class="poster">
+        </div>
+        <div class="container bg-dark border border-warning">
+            <div class="row">
+                <div class="col">
                     <h4>Star Wars: The Force Awakens (2015)</h4>
+                    <img src="../img/peliculas/ep7.jpg" alt="force-awakens-poster" class="img-thumbnail">
                 </div>
-                <div class="texto">
+                <div class="col d-flex justify-content-center">
                     <p>Mientras Kylo Ren y la siniestra Primera Orden resurgen de las cenizas del Imperio,
                         Luke Skywalker desaparece cuando la galaxia más lo necesita.
-                        Rey, una carroñera del desierto, y Finn, un soldado de asalto abandonado, deben unir fuerzas.
-                        con Han Solo y Chewbacca en su búsqueda desesperada de la única esperanza de restaurar la paz en
+                        Rey, una carroñera del desierto, y Finn, un soldado de asalto abandonado, deben unir
+                        fuerzas.
+                        con Han Solo y Chewbacca en su búsqueda desesperada de la única esperanza de restaurar
+                        la
+                        paz en
                         la galaxia.</p>
                 </div>
-
             </div>
-            <div>
-                <div class="texto">
-                    <p>En un momento de conflicto, un grupo de héroes inverosímiles se unen en una misión suicida para
-                        robar los planos de "La Estrella de la Muerte", el arma de destrucción definitiva del Imperio.
+        </div>
+        <div class="container bg-dark border border-warning">
+            <div class="row">
+                <div class="col">
+                    <p>En un momento de conflicto, un grupo de héroes inverosímiles se unen en una misión
+                        suicida
+                        para
+                        robar los planos de "La Estrella de la Muerte", el arma de destrucción definitiva del
+                        Imperio.
                     </p>
                 </div>
-                <div class="imagen">
+                <div class="col">
                     <h4> Rogue One: A Star Wars Story (2016)</h4>
-                    <img src="../img/peliculas/rogueone.jpg" alt="rogue-one-poster" class="poster">
+                    <img src="../img/peliculas/rogueone.jpg" alt="rogue-one-poster" class="img-thumbnail">
                 </div>
-
-
             </div>
-            <div>
-                <div class="imagen">
-                    <img src="../img/peliculas/ep8.jpg" alt="last-jedi-poster" class="poster">
+        </div>
+        <div class="container bg-dark border border-warning">
+            <div class="row">
+                <div class="col">
                     <h4> Star Wars: The Last Jedi (2017)</h4>
+                    <img src="../img/peliculas/ep8.jpg" alt="last-jedi-poster" class="img-thumbnail">
                 </div>
-                <div class="texto">
-                    <p> La resistencia intenta escapar de su base en el planeta D'Qar. Mientras Rey intenta convencer a
-                        Luke Skywalker de que la entrene en los caminos de la fuerza, Finn y Rose Tico intentan sabotear
-                        la flota de la Primera Orden para que los miembros supervivientes de la resistencia puedan
+                <div class="col">
+                    <p> La resistencia intenta escapar de su base en el planeta D'Qar. Mientras Rey intenta
+                        convencer a
+                        Luke Skywalker de que la entrene en los caminos de la fuerza, Finn y Rose Tico intentan
+                        sabotear
+                        la flota de la Primera Orden para que los miembros supervivientes de la resistencia
+                        puedan
                         escapar.</p>
                 </div>
-
-
             </div>
-            <div>
-                <div class="texto">
-                    <p>El joven Han Solo y su banda de contrabandistas intentan robar coaxium del planeta Kessel. Dado
-                        que necesita una nave muy rápida para la misión, Solo contacta a Lando Calrissian, el dueño del
+        </div>
+        <div class="container bg-dark border border-warning">
+            <div class="row">
+                <div class="col">
+                    <p>El joven Han Solo y su banda de contrabandistas intentan robar coaxium del planeta
+                        Kessel.
+                        Dado
+                        que necesita una nave muy rápida para la misión, Solo contacta a Lando Calrissian, el
+                        dueño
+                        del
                         Halcón Milenario. </p>
                 </div>
-                <div class="imagen">
+                <div class="col">
                     <h4> Solo: A Star Wars Story (2018)</h4>
-                    <img src="../img/peliculas/solo.jpg" alt="solo-poster" class="poster">
+                    <img src="../img/peliculas/solo.jpg" alt="solo-poster" class="img-thumbnail">
                 </div>
-
-
             </div>
-            <div>
-                <div class="imagen">
-                    <img src="../img/peliculas/ep9.jpg" alt="rise-skywalker-poster" class="poster">
+        </div>
+        <div class="container bg-dark border border-warning">
+            <div class="row">
+                <div class="col"><img src="../img/peliculas/ep9.jpg" alt="rise-skywalker-poster" class="img-thumbnail">
                     <h4> Star Wars: The Rise Of Skywalker(2019) </h4>
                 </div>
-                <div class="texto">
-                    <p> Un año después de los eventos de "Los Últimos Jedi", los restos de la Resistencia se enfrentarán
-                        una vez más a la Primera Orden, involucrando conflictos del pasado y el presente. Mientras
+                <div class="col">
+                    <p> Un año después de los eventos de "Los Últimos Jedi", los restos de la Resistencia se
+                        enfrentarán
+                        una vez más a la Primera Orden, involucrando conflictos del pasado y el presente.
+                        Mientras
                         tanto, el antiguo conflicto entre los Jedi y los Sith llegará a su clímax, poniendo fin
                         definitivamente a la saga Skywalker.</p>
                 </div>
-
-
             </div>
+        </div>
 
-        </section>
-        <h4> <a href="#top">Volver Arriba</a></h4>
+        <h4> <a href="#top" class="d-flex justify-content-center">Volver Arriba</a></h4>
     </main>
-    <footer class="pie-pagina">
-        <section class="grupo-1">
-            <div class="box">
-                <h2>Segui las redes de Star Wars</h2>
-                <div class="red-social">
-                    <a href="www.facebook.com"><img src="../img/iconos/fb-logo.png" alt=""></a>
-                    <a href="www.instagram.com"><img src="../img/iconos/ig-logo.png" alt=""></a>
-                </div>
+    <footer class="py-5 bg-dark">
+        <div class="row">
+            <div class="col-2 ">
+                <h2>Redes sociales</h2>
+                <ul class="list-unstyled d-flex justify-content-center">
 
+                    <li class="ms-2"><a href="https://www.facebook.com/starwarsla"><img src="../img/iconos/fb-logo.png"
+                                alt=""></a></li>
+                    <li class="ms-2"><a href="https://www.instagram.com/starwars"><img src="../img/iconos/ig-logo.png"
+                                alt=""></a>
+                    </li>
+
+
+                </ul>
             </div>
-            <div class="box">
+            <div class="col-4 offset-1">
                 <p>las peliculas, series, juegos, personajes y musica aqui citados son propiedad de Lucas Film&#169</p>
             </div>
-
-
-        </section>
-        <section class="grupo-2">
-            <small>
-                &#169 2022 Santiago Isaac Cuenca<a href="https://www.linkedin.com/in/sisaacuenca/"><img
-                        src="../img/iconos/linkedin.png" alt=""></a>- Todos los Derechos reservados
-            </small>
-
-        </section>
+        </div>
+        <div class="d-flex justify-content-center border-top">
+            &#169 2022 Santiago Isaac Cuenca<a href="https://www.linkedin.com/in/sisaacuenca/"><img
+                    src="../img/iconos/linkedin.png" alt=""></a>- Todos los Derechos reservados
+        </div>
 
     </footer>
 </body>
