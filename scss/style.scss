@@ -2,16 +2,15 @@
   box-sizing: border-box;
   color: #fca311;
 }
-
 body {
   background-image: url("../img/star-wars-backgrounds-25.jpg");
 }
-
-#imgTitle img {
-  width: 90%;
-  margin: auto;
+#imgTitle {
+  img {
+    width: 90%;
+    margin: auto;
+  }
 }
-
 .form-register {
   width: 400px;
   background: #14213d;
@@ -20,11 +19,11 @@ body {
   margin-top: 100px;
   border-radius: 4px;
   color: white;
-}
-.form-register h3 {
-  color: #fca311;
-  font-size: 22px;
-  margin-bottom: 20px;
+  h3 {
+    color: #fca311;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
 }
 
 .form-control {
@@ -35,5 +34,3 @@ body {
   margin-bottom: 16px;
   border: 1px solid #1f53c5;
 }
-
-/*# sourceMappingURL=style.css.map */
