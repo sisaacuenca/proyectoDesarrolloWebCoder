@@ -1,23 +1,32 @@
 .form-register {
   width: 400px;
-  background: #14213d;
+  background: #000000;
   padding: 30px;
   margin: auto;
   margin-top: 100px;
   border-radius: 4px;
   color: white;
-  h3 {
-    color: #fca311;
-    font-size: 22px;
-    margin-bottom: 20px;
-  }
-}
 
-.form-control {
-  width: 100%;
-  background: #24303c;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  border: 1px solid #1f53c5;
+  button {
+    padding: 9px 15px;
+    background-color: $colorBoton;
+    border: none;
+    border-radius: 50px;
+    color: $colorLetra;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: 1px solid $colorBoton;
+    &:hover {
+      background-color: $colorBtnHvr;
+    }
+  }
+
+  .form-control {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid $colorBorde;
+  }
 }

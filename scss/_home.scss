@@ -1,0 +1,13 @@
+$colorFondo: #000000;
+$colorLetra: #fca311;
+$colorBoton: #14213d;
+$colorBtnHvr: #e5e5e5;
+$colorBorde: #1f53c5;
+
+* {
+  @include reset;
+}
+body {
+  color: $colorLetra;
+  background-image: url("../img/star-wars-backgrounds-25.jpg");
+}

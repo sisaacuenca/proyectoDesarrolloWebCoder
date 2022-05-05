@@ -1,0 +1,20 @@
+.redesSociales {
+  h2 {
+    color: $colorBtnHvr;
+  }
+  .facebook {
+    i {
+      @extend h2;
+      transition: all 0.3s ease 0s;
+      &:hover {
+        color: $colorBorde;
+      }
+    }
+  }
+  .instagram {
+    @extend .facebook;
+    &:hover {
+      color: rgb(190, 16, 147);
+    }
+  }
+}
