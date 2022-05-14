@@ -6,27 +6,13 @@
   margin-top: 100px;
   border-radius: 4px;
   color: white;
+}
 
-  button {
-    padding: 9px 15px;
-    background-color: $colorBoton;
-    border: none;
-    border-radius: 50px;
-    color: $colorLetra;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    border: 1px solid $colorBoton;
-    &:hover {
-      background-color: $colorBtnHvr;
-    }
-  }
-
-  .form-control {
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid $colorBorde;
-  }
+.form-control {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid $colorBorde;
 }

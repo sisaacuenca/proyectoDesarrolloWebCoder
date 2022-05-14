@@ -9,6 +9,20 @@ body {
   background-image: url("../img/star-wars-backgrounds-25.jpg");
 }
 
+button {
+  padding: 9px 15px;
+  background-color: #14213d;
+  border: none;
+  border-radius: 50px;
+  color: #fca311;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  border: 1px solid #14213d;
+}
+button:hover {
+  background-color: #e5e5e5;
+}
+
 #imgTitle img {
   width: 90%;
   margin: auto;
@@ -33,20 +47,8 @@ nav ul {
   border-radius: 4px;
   color: white;
 }
-.form-register button {
-  padding: 9px 15px;
-  background-color: #14213d;
-  border: none;
-  border-radius: 50px;
-  color: #fca311;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  border: 1px solid #14213d;
-}
-.form-register button:hover {
-  background-color: #e5e5e5;
-}
-.form-register .form-control {
+
+.form-control {
   width: 100%;
   background: #24303c;
   padding: 10px;
@@ -55,19 +57,16 @@ nav ul {
   border: 1px solid #1f53c5;
 }
 
-.redesSociales h2,
-.redesSociales .facebook i,
-.redesSociales .instagram i {
+.redesSociales h2, .redesSociales .facebook i, .redesSociales .instagram i {
   color: #e5e5e5;
 }
-.redesSociales .facebook i,
-.redesSociales .instagram i {
+.redesSociales .facebook i, .redesSociales .instagram i {
   transition: all 0.3s ease 0s;
 }
-.redesSociales .facebook i:hover {
+.redesSociales .facebook i:hover, .redesSociales .instagram i:hover {
   color: #1f53c5;
 }
-.redesSociales .instagram i:hover {
+.redesSociales .instagram:hover {
   color: rgb(190, 16, 147);
 }
 
